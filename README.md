@@ -1,4 +1,4 @@
-# Segmentation d’images – Projet Python
+# Segmentation d’images
 
 Ce projet implémente des techniques de **segmentation d’images appliquées à des images de type "pepper" ou rétiniennes"**, utilisant des méthodes de seuillage et de clustering pour isoler les zones d’intérêt.
 
@@ -8,7 +8,7 @@ Ce projet implémente des techniques de **segmentation d’images appliquées à
 - Comparer les résultats et visualiser l’efficacité de chaque méthode.
 
 ## Fichiers Python
-### `seuillage.py`
+### `binarisation.py`
 - Lecture d’une image RGB avec OpenCV.
 - Conversion en niveaux de gris.
 - Calcul de l’histogramme des intensités.
@@ -18,7 +18,7 @@ Ce projet implémente des techniques de **segmentation d’images appliquées à
   2. **Seuil pondéré** avec moyenne des classes de pixels (S1 et S2)
 - Visualisation des images segmentées avec OpenCV.
 
-### `kmeans_segmentation.py`
+### `kmeans.py`
 - Implémentation d’un **algorithme K-means sur les intensités de l’image**.
 - Initialisation aléatoire des classes et mise à jour itérative des centres.
 - Assignation de chaque pixel à la classe la plus proche.
